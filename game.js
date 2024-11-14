@@ -38,8 +38,8 @@ let ballDX = ballSpeed * (Math.random() * 2 - 1);  // Random horizontal directio
 let ballDY = -ballSpeed;  // Start moving up
 
 // Brick properties
-const brickRowCount = 2;
-const brickColumnCount = 2;
+const brickRowCount = 8;
+const brickColumnCount = 16;
 const brickWidth = 75;
 const brickHeight = 20;
 const brickPadding = 10;
